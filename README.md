@@ -19,7 +19,6 @@ def admindetail():
 root3.winfo_screenheight() ## Putting width and length from original image
  newImageSizeWidth = int(imageSizeWidth*n) ## multipy width by 0.9
  newImageSizeHeight = int(imageSizeHeight*n) ## multiply height by 0.9
-28
  background_image =
 background_image.resize((newImageSizeWidth,newImageSizeHeight),Image.ANTIALIAS)
  imgbg = ImageTk.PhotoImage(background_image)
@@ -63,7 +62,6 @@ SEPM classes as it is lower than 75%')
  tree.heading(7,text="Late Count",anchor=CENTER)
  tree.column("# 1",width=120,anchor=CENTER)
  tree.column("# 2",width=150,anchor=CENTER)
-29
  tree.column("# 3",width=110,anchor=CENTER)
  tree.column("# 4",width=130,anchor=CENTER)
  tree.column("# 5",width=100,anchor=CENTER)
